@@ -1,0 +1,149 @@
+*
+{
+    margin: 0px;
+    padding:0px;
+}
+.nav-logo
+{
+    height: 50px;
+    width: 50px;
+    border-radius: 8px;
+    margin-right: 10px;
+}
+.navbar 
+{
+    background-color: #ffffff;
+/* background: linear-gradient(25deg, rgb(225, 34, 60), rgb(238, 71, 88) 50%); */
+    padding:0px;
+    position: sticky;
+    top:0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.brand-name
+{
+    color: #fE5200;
+    font-weight: 700;
+    
+}
+
+.nav-link
+{ 
+    /* color:#f!important; */
+    font-weight: 600 !important;
+    margin-left:10px;
+}
+.nav-link:hover
+{
+ 
+        color: #ff5200 !important;
+        transition: background-color .3s;
+        transform: scale(1.1);
+      
+}
+.navbar-brand:hover
+{
+    color: #ff5200 !important;
+    transition: background-color .3s;
+    transform: scale(1.1);
+}
+/* .banner-section
+{
+position: relative;
+height: 100vh;
+overflow: hidden;
+} */
+
+.image-container {
+    position: relative;
+    text-align: center;
+    color: white; /* Change text color as needed */
+}
+.image-container img {
+    width: 100%; /* Make image responsive */
+    height: auto;
+
+}
+.image-container h1 {
+    position: absolute;
+    top: 20%; /* Center vertically */
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%, -50%); /* Adjust for text size */
+    z-index: 1; /* Ensure text is above the image */
+    font-weight: 700;
+    
+}
+.search-container
+{
+    position: absolute;
+    top: 50%; /* Center vertically */
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%, -50%); /* Adjust for text size */
+    z-index: 1;
+    border-radius: 8px;
+    width: 20%;
+    display: flex;
+    max-width: 300px;
+    align-items: center;
+  
+}
+.form-control
+{
+    /* background-color: #e6e3e0; */
+    background-color: #984c00;
+}
+/* From Uiverse.io by LightAndy1 
+.search-container {
+    display: flex;
+    line-height: 28px;
+    align-items: center;
+    position: relative;
+    max-width: 190px;
+  } */
+  
+  .input {
+    font-family: "Montserrat", sans-serif;
+    width: 100%;
+    height: 40px;
+    padding-left: 2.5rem;
+    box-shadow: 0 0 0 1.5px #2b2c37, 0 0 25px -17px #000;
+    border: 0;
+    border-radius: 12px;
+    background-color: #16171d;
+    outline: none;
+    color: #bdbecb;
+    transition: all 0.25s cubic-bezier(0.19, 1, 0.22, 1);
+    cursor: text;
+    z-index: 0;
+  }
+  
+  .input::placeholder {
+    color: #bdbecb;
+  }
+  
+  .input:hover {
+    box-shadow: 0 0 0 2.5px #2f303d, 0px 0px 25px -15px #000;
+  }
+  
+  .input:active {
+    transform: scale(0.95);
+  }
+  
+  .input:focus {
+    box-shadow: 0 0 0 2.5px #2f303d;
+  }
+  
+  .search-icon {
+    position: absolute;
+    left: 1rem;
+    fill: #bdbecb;
+    width: 1rem;
+    height: 1rem;
+    pointer-events: none;
+    z-index: 1;
+  }
+  @media (max-width: 576px) {
+    .input-group {
+        flex-direction: column;
+    }
+}
+
